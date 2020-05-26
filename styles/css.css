@@ -1,0 +1,108 @@
+body{
+  padding: 20px;
+  background-color: #f6f6f6;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+.list-header,.add-header{
+  background-color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 60px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px -2px rgba(0,0,0,0.4);
+  margin-bottom: 20px;
+}
+.list-header,.add-header .title{
+  font-size: 22px;
+  font-weight: 600;
+}
+.add-header .save-pending{
+  display: inline;
+  padding-left: 10px;
+}
+.list,.form{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px -2px rgba(0,0,0,0.4);
+}
+.MuiButtonBase-root:focus{
+  outline: none;
+}
+.MuiButtonBase-root.update-button{
+  background-color: #e6e6e6
+}
+.MuiButtonBase-root.delete-button{
+  padding: 0px;
+}
+.MuiButtonBase-root.add-button,.MuiButtonBase-root.save-button{
+  font-weight: 600;
+}
+.MuiButtonBase-root.cancel-button{
+  margin-right: 10px;
+}
+.react-bootstrap-table th.sortable:focus{
+  outline: none;
+}
+.delete-column{
+  width: 10%;
+}
+.delete-column:focus{
+  outline: none;
+}
+.description-column{
+  width: 50%;
+}
+.custom-date-input{
+  height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  border: none;
+}
+.custom-date-input:focus{
+  outline: none;
+}
+.form-label{
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(14, 75, 136);
+  margin-bottom: 10px;
+}
+.input-amount{
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid rgb(122, 120, 120);
+}
+.input-amount.error{
+  border: 1px solid rgb(224, 13, 13);
+}
+.input-amount-container .option {
+  font-weight: 600;
+  margin-left: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.input-amount-container .option.selected{
+  background-color: rgb(48, 129, 10);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  border-radius: 4px;
+  cursor: auto;
+}
+.input-description{
+  border-radius: 4px;
+  padding: 10px;
+  width: 50%;
+}
+.input-description.error{
+  border: 1px solid rgb(168, 15, 15);
+}
+.error{
+  color: rgb(138, 44, 44);
+}
